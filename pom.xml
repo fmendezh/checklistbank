@@ -40,6 +40,16 @@
     <developerConnection>scm:git:git@github.com:fmendezh/checklistbank.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+  <distributionManagement>
+      <repository>
+          <id>gbif-labs-release</id>
+          <url>http://repository.gbif.org/content/repositories/labs</url>
+      </repository>
+      <snapshotRepository>
+          <id>gbif-labs-snapshot</id>
+          <url>http://repository.gbif.org/content/repositories/labs</url>
+      </snapshotRepository>
+  </distributionManagement>
 
   <properties>
     <dwc-api.version>1.7</dwc-api.version>
