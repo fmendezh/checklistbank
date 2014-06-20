@@ -43,11 +43,11 @@
   <distributionManagement>
       <repository>
           <id>gbif-labs-release</id>
-          <url>http://repository.gbif.org/content/repositories/labs</url>
+          <url>http://repository.gbif.org/content/repositories/gbif-labs</url>
       </repository>
       <snapshotRepository>
           <id>gbif-labs-snapshot</id>
-          <url>http://repository.gbif.org/content/repositories/labs</url>
+          <url>http://repository.gbif.org/content/repositories/gbif-labs</url>
       </snapshotRepository>
   </distributionManagement>
 
