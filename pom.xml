@@ -593,6 +593,32 @@
         <checklistbank.solr.server>http://apps.gbif-uat.org:8082/checklistbank-solr</checklistbank.solr.server>
         <checklistbank.solr.server.type>HTTP</checklistbank.solr.server.type>
       </properties>
+      <build>
+          <plugins>
+              <!-- run integration tests (*IT) during verify -->
+              <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-failsafe-plugin</artifactId>
+              </plugin>
+              <plugin>
+                  <groupId>external.atlassian.jgitflow</groupId>
+                  <artifactId>jgitflow-maven-plugin</artifactId>
+                  <version>1.0-m2</version>
+                  <executions>
+                      <execution>
+                          <id>uatrelease</id>
+                          <configuration>
+                              <pushReleases>true</pushReleases>
+                              <releaseBranchVersionSuffix>RC</releaseBranchVersionSuffix>
+                          </configuration>
+                          <goals>
+                              <goal>query</goal>
+                          </goals>
+                      </execution>
+                  </executions>
+              </plugin>
+          </plugins>
+      </build>
     </profile>
 
     <profile>
