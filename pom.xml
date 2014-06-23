@@ -604,18 +604,10 @@
                   <groupId>external.atlassian.jgitflow</groupId>
                   <artifactId>jgitflow-maven-plugin</artifactId>
                   <version>1.0-m2</version>
-                  <executions>
-                      <execution>
-                          <id>uatrelease</id>
-                          <configuration>
-                              <pushReleases>true</pushReleases>
-                              <releaseBranchVersionSuffix>RC</releaseBranchVersionSuffix>
-                          </configuration>
-                          <goals>
-                              <goal>release-start</goal>
-                          </goals>
-                      </execution>
-                  </executions>
+                  <configuration>
+                      <pushReleases>true</pushReleases>
+                      <releaseBranchVersionSuffix>RC</releaseBranchVersionSuffix>
+                  </configuration>
               </plugin>
           </plugins>
       </build>
