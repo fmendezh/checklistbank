@@ -612,7 +612,7 @@
                               <releaseBranchVersionSuffix>RC</releaseBranchVersionSuffix>
                           </configuration>
                           <goals>
-                              <goal>query</goal>
+                              <goal>release-start</goal>
                           </goals>
                       </execution>
                   </executions>
