@@ -42,12 +42,12 @@
   </scm>
   <distributionManagement>
       <repository>
-          <id>gbif-labs-release</id>
-          <url>http://repository.gbif.org/content/repositories/gbif-labs</url>
+          <id>labs-releases</id>
+          <url>http://repository.gbif.org/content/repositories/labs-releases</url>
       </repository>
       <snapshotRepository>
-          <id>gbif-labs-snapshot</id>
-          <url>http://repository.gbif.org/content/repositories/gbif-labs</url>
+          <id>labs-snapshots</id>
+          <url>http://repository.gbif.org/content/repositories/labs-snapshots</url>
       </snapshotRepository>
   </distributionManagement>
 
