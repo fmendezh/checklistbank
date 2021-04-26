@@ -71,7 +71,7 @@
     <commmons-lang.version>3.3.1</commmons-lang.version>
     <commons-beanutils.version>1.8.3</commons-beanutils.version>
     <commons-digester.version>2.1</commons-digester.version>
-    <commons-io.version>2.4</commons-io.version>
+    <commons-io.version>2.7</commons-io.version>
     <dbunit.version>2.4.9</dbunit.version>
     <findbugs-jsr305.version>2.0.3</findbugs-jsr305.version>
     <grizzly-servlet-webserver.version>1.9.59</grizzly-servlet-webserver.version>
