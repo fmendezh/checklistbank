@@ -13,7 +13,7 @@
 
   <properties>
     <registry.ws.url>http://api.gbif.org/</registry.ws.url>
-    <httpcomponents.version>4.2.5</httpcomponents.version>
+    <httpcomponents.version>4.5.13</httpcomponents.version>
   </properties>
 
   <build>
